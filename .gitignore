@@ -1,1 +1,5 @@
-/build
+build/nbody
+/.venv
+outputs/simulation.mp4
+outputs/potential.csv
+outputs/states.csv
