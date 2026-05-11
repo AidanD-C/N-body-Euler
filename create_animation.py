@@ -58,5 +58,5 @@ def update(frame):
 
 ani = animation.FuncAnimation(fig, update, frames=len(timesteps), interval=20, blit=True)
 
-ani.save("outputs/simulation.mp4", writer="ffmpeg", fps=60)
+ani.save("outputs/simulation.gif", writer="gif", fps=60)
 print("saved to outputs/simulation.gif")

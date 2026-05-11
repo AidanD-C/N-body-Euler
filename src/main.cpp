@@ -5,7 +5,7 @@
 
 constexpr int N = 10; // number of bodies
 constexpr int T = 1; // total time of simulation (seconds)
-constexpr float DT = 0.001f; // time step (seconds)
+constexpr float DT = 0.01f; // time step (seconds)
 constexpr float M = 0.5f; // mass of each particle (kg)
 const char* STATE_FILE = "outputs/states.csv";
 const char* POTENTIAL_FILE = "outputs/potential.csv";
