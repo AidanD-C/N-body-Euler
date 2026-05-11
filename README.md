@@ -2,7 +2,7 @@
 This is a 2D, N body, Euler's method based simulation of non-interacting particles in a background potential. The particle positions are initially random. Parameters such as number of particles, the mass of each particle, the time step, and the total simulation time, can all be adjusted in main.cpp. Here's an example where 10 particles are placed in a harmonic potential:
 
 <div align="center">
-  <img src="outputs/simulation.gif" width="400">
+  <img src="example.gif" width="400">
 </div>
 
 To compile the C++ code which generates the simulation data, use:

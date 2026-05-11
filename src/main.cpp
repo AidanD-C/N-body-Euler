@@ -12,7 +12,7 @@ const char* POTENTIAL_FILE = "outputs/potential.csv";
 
 void initialize_random_state(std::array<std::array<float, 2>, N>& positions, std::array<std::array<float, 2>, N>& momenta)
 {
-    std::mt19937 rng(42);  // 42 is the seed
+    std::mt19937 rng(42);
     std::uniform_real_distribution<float> pos_dist(-1.0f, 1.0f);
     std::uniform_real_distribution<float> mom_dist(-0.5f, 0.5f);
 

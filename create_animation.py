@@ -53,10 +53,10 @@ def update(frame):
     for i, circle in enumerate(circles):
         circle.set_data([positions[frame, i, 0]], [positions[frame, i, 1]])
     time_text.set_text(f"t = {timesteps[frame]:.2f}")
-    return circles + [time_text]  # heatmap excluded — stays static
+    return circles + [time_text]
 
 
 ani = animation.FuncAnimation(fig, update, frames=len(timesteps), interval=20, blit=True)
 
-ani.save("outputs/simulation.gif", writer="gif", fps=60)
-print("saved to outputs/simulation.gif")
+ani.save("outputs/simulation.mp4", writer="ffmpeg", fps=60)
+print("saved to outputs/simulation.mp4")
