@@ -1,4 +1,4 @@
-# CPP-Project-1-N-body-Euler
+# N-body-Euler
 This is a 2D, N body, Euler's method based simulation of non-interacting particles in a background potential. The particle positions are initially random. Parameters such as number of particles, the mass of each particle, the time step, and the total simulation time, can all be adjusted in main.cpp. Here's an example where 10 particles are placed in a harmonic potential:
 
 <div align="center">
